@@ -1,0 +1,15 @@
+.nav-item {
+	a {
+		color: black;
+    text-decoration: underline white;
+    transition: all 0.2s ease;
+
+    }
+    font-size: 1.5rem;
+    margin:1.5rem;
+    
+
+  a:hover {
+    text-decoration: underline black;
+  }
+}

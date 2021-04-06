@@ -1,0 +1,42 @@
+npm start
+y
+git commit -m "added parallax"
+git add .
+git commit -m "added parallax"
+npm start
+y
+npm start
+y
+git add .
+git commit -m "added labels"
+git push
+    git push origin HEAD
+npm srart
+npm start
+y
+git commit -m "added stuff" -F
+git add .
+git commit --force
+git commit -m "added stuff"
+git push
+git push origin master
+npm deploy
+cd src
+npm deploy
+cd ..
+cd MaxZabarka.github.io
+npm run deploy
+npm run build
+npm install --save gh-pages
+npm run build
+y
+npm run deploy
+npm run build
+cd src
+npm run build
+npm start
+git log
+git log --pretty=format:"%h - %an, %ar : %s"
+git checkout c6dca82c610d67756e2390aa0758a19f0adeb18c
+922c70e53a20d23129fec143a9e5c4ee2e43adbcdoskey /history > history.txt
+doskey /history > history.txt

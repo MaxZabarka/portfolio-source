@@ -1,0 +1,47 @@
+.flicker-animation {
+    animation: flickerAnimation .5s 1;
+    // border: 5px solid red;
+}
+
+  @keyframes flickerAnimation {
+      0% {
+          opacity: 1;
+      }
+  
+      12% {
+          opacity: 0.89;
+      }
+  
+      24% {
+          opacity: 0.56;
+      }
+  
+      36% {
+          opacity: 0.02;
+      }
+  
+      54% {
+          opacity: 0.25;
+      }
+  
+      74% {
+          opacity: 0.02;
+      }
+  
+      82% {
+          opacity: 0.06;
+      }
+  
+      92% {
+          opacity: 0.01;
+      }
+  
+      96% {
+          opacity: 0.02;
+      }
+  
+      100% {
+          opacity: 0;
+      }
+  
+  }

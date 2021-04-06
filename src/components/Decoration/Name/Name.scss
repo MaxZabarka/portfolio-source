@@ -1,0 +1,65 @@
+.name {
+	@media (max-width: 960px) {
+		transform: scale(0.7);
+	}
+	@media (max-width: 800px) {
+		transform: scale(0.7);
+	}
+	transform: scale(1);
+	transform-origin: top left;
+	font-family: "Android 101";
+	font-size: 3rem;
+	position: absolute;
+	width: 100vw;
+	top: 15vh;
+	left: 9%;
+
+
+	.offset {
+		top: -30px;
+		position: absolute;
+	}
+
+
+	h1 {
+		display: inline-block;
+	}
+
+	span h1:nth-of-type(2) {
+		transform: translateX(-25px);
+	}
+
+	span img:nth-of-type(2) {
+		transform: scale(0.61) translateY(6px) translateX(-20px);
+	}
+
+	> h1:nth-of-type(1) {
+		transform: translateX(-30px);
+	}
+	> h1:nth-of-type(2) {
+		transform: translateX(-60px);
+	}
+	> img:nth-of-type(2) {
+		transform: scale(0.61) translateY(6px) translateX(-40px);
+	}
+	> h1:nth-of-type(3) {
+		transform: translateX(-60px);
+	}
+	> h1:nth-of-type(4) {
+
+		transform: translateX(-80px);
+	}
+	> img:nth-of-type(3) {
+		transform: scale(0.61) translateY(6px) translateX(-75px);
+	}
+	> img:nth-of-type(4) {
+		transform: scale(0.61) translateY(6px) translateX(-120px);
+	}
+	h2 {
+		font-size: 3rem;
+		transform: translateX(-1.8rem) translateY(-1.3rem);
+		@media (max-width: 960px) {
+			transform: translateX(-1.8rem) translateY(-1rem);
+		}
+	}
+}

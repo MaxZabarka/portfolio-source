@@ -1,0 +1,32 @@
+.Label {
+    position: absolute;
+
+    width:25rem;
+    transform: scale(0.8);
+    filter:invert(1);
+    font-family: "Android 101";
+    .label-image {
+        width: 100%;
+    }
+    .label-rectangle {
+        filter:invert(1);
+        transform-origin: top left;
+        transform: scale(0.62) translateX(2.3rem);
+    }
+    .text {
+        font-size: 3rem;
+        color:white;
+        transform: translateX(11rem) translateY(1.5rem);
+    }
+    .number {
+        font-size: 3rem;
+        color:black;
+        transform: translateX(2rem) translateY(1.5rem);
+
+    }
+    * {
+        position: absolute;
+        top:0;
+    }
+
+}

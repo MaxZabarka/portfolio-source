@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+}
+@font-face {
+	font-family: "Ubuntu Mono", serif;
+	src: local("Ubuntu Mono"),
+		url("./assets/fonts/UbuntuMono-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Android 101", serif;
+	src: local("Android 101"),
+		url("./assets/fonts/Android101.ttf") format("truetype");
+}
+
+body {
+	overflow-x:hidden;
+	height:2000px;
+	background: white;
+	font-family: "Ubuntu Mono", serif;
+}
+* {
+	box-sizing: border-box;
+}
+.Main {
+	top: 0;
+	left: 0;
+	width: 100vw;
+	position: relative;
+}

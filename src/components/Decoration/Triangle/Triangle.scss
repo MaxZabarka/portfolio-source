@@ -1,0 +1,13 @@
+.Triangle {
+    z-index: 1000;
+    position: absolute;
+    top:0;
+    right:30vw;
+    width:7vw;
+    filter:invert(1);
+    transform: rotateZ(60deg) scale(5);
+    img {
+        width:100%;
+        opacity:0.05;
+    }
+}

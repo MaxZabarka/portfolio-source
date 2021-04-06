@@ -1,0 +1,13 @@
+.crosshairs-2{
+    position: absolute;
+    left:9%;
+    top:60vh;
+    transform-origin: top left;
+
+        transform: scale(0.52);
+
+    @media (max-width:960px) {
+        transform: scale(0.455);
+    }
+
+}
